@@ -3,6 +3,7 @@ import BasicTitle from './components/BasicTitle'
 import { DefaultButton, HipsterButton } from './components/Buttons'
 import { Button } from '@material-ui/core'
 import ComplexTitle from './components/ComplexTitle'
+import Random from './components/Random'
 
 const StyledBtn = styled(Button)`
 text-transform: capitalize;
