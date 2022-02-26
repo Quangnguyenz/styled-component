@@ -13,8 +13,7 @@ text-transform: capitalize;
 function App() {
   return (
     <div style={{ padding: "2rem" }}>
-      <ComplexTitle title='more complex title'></ComplexTitle>
-      <AlternativeTitle title='alternative title'></AlternativeTitle>
+      <h2>cards are here</h2>
     </div>
   );
 }
