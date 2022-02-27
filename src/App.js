@@ -5,6 +5,7 @@ import { Button } from '@material-ui/core'
 import ComplexTitle from './components/ComplexTitle'
 import Random from './components/Random'
 import AlternativeTitle from './components/AlternativeTitle'
+import Card from './components/Card'
 
 const StyledBtn = styled(Button)`
 text-transform: capitalize;
@@ -13,7 +14,7 @@ text-transform: capitalize;
 function App() {
   return (
     <div style={{ padding: "2rem" }}>
-      <h2>cards are here</h2>
+      <Card />
     </div>
   );
 }
