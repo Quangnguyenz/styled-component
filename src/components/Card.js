@@ -31,6 +31,10 @@ footer{
     h4{
         text-transform: capitalize;
         color: red;
+        &::before{
+            content: 'Name : ';
+            color: red;
+        }
     }
     h4:hover{
         color: green;
@@ -39,16 +43,18 @@ footer{
         color: var(--primary);
         font-weight: 700;
     }
-}   
     &:hover{
+        background: red;
+    }
+}   
+&:hover{
         box-shadow: 0 3px 3px #222;
         cursor: pointer;
-    }
+}
     
 h4{
         color: blue;
 }
-
 @media (min-width:768px) {
     max-width: 600px;
 }
