@@ -1,11 +1,10 @@
-import styled from 'styled-components'
-import Loading from './components/Loading';
-import GlobalStyles from './components/global-styles';
+import styled from 'styled-components/macro'
+import { DefaultButton } from './components/Buttons'
 function App() {
   return (
     <div style={{ padding: '2rem' }}>
-      <GlobalStyles />
-      <Loading />
+      <DefaultButton>Click me</DefaultButton>
+      <DefaultButton>Click me</DefaultButton>
     </div>
   );
 }
